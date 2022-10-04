@@ -1,3 +1,49 @@
 .intro {
-    color:blue;
+    color:rgb(0, 0, 0);
+    text-align:center;
+    font-size:100px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-shadow:4px 4px #0000003b;
+}
+
+body {
+    background-image:url("../images/recipesbackground.jpg")
+}
+
+.dish {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:850px;
+    height:600px;
+    align-items:center;
+    border-radius:50px;
+}
+
+.home {
+    position:absolute;
+    width:150px;
+    height:40px;
+    background-color:rgb(134, 133, 133);
+    top:0;
+    right:0;
+    bottom:0;
+    left:885px;
+    color:black;
+    font-weight:bold;
+}
+
+.list {
+
+}
+
+.header {
+    font-size:40px;
+    color:white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.list {
+    font-size:25px;
+    color:white;
 }
